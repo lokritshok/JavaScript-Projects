@@ -1,1 +1,1 @@
-# JavaScript-Projects
+# JavaScript-Projects is a repository that houses all my JavaScript tasks and challenges, including graded and ungraded assignments. It is useful for reviewing contents covered during my JavaScript course modules.
