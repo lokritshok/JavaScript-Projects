@@ -20,3 +20,7 @@ document.write (s)
 /*concatenation assgmt*/
 var o="\"All power belongs to God," + " to Him alone belongs all the Glory," + " and blessed be His name forevermore\", Amen!"
 document.write (o)
+
+/*miltiple var*/
+var teammates = "TOM BEN", Lead ="Munis", GH ="Dovile", Clerk ="Ali", YM ="Victor";
+document.write(Lead)
