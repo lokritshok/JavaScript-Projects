@@ -15,5 +15,5 @@ var o ="\"All power belongs to God," + " to Him alone belongs all the Glory, Ado
 
 
 /*concatenated string chllg*/
-var B = ('This is how we roll!.' + "\"All power belongs to God," + " to Him alone belongs all the Glory, Adoration and Praise!" + " and blessed be His name forevermore\", Amen!");
+var B = ('This is how we roll!.' + "\"All power belongs to God," + " to Him alone belongs all the Glory, Adoration and Praise!" + " blessed be His name forevermore\", Amen!");
 document.write (B)
