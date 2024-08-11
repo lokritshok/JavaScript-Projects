@@ -24,3 +24,7 @@ document.write (o)
 /*miltiple var*/
 var teammates = "TOM BEN", Lead ="Munis", GH ="Dovile", Clerk ="Ali", YM ="Victor";
 document.write(Lead)
+
+/*Expression Assgmt*/
+var t=(10 + 10);
+document.write(t)
