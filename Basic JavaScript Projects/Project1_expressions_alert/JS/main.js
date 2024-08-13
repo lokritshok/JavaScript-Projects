@@ -32,4 +32,12 @@ document.write(t)
 function My_First_Function() {                             //defining a function and naming it
     var str = "This is the button text";                   //defining a var and giving it a str value
     document.getElementById("Button_Text").innerHTML = str; //putting the value
-}                                                            //of the var into the HTML element with the "button_Text" id 
+}                                                           //of the var into the HTML element with the "button_Text" id 
+
+
+//creating two variables
+var sent1 = "This is the begining of the string";
+var sent2 = " and this is the end of the string";
+
+//displaying the variables using the document.write method
+document.write(sent1 = sent2);
