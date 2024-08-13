@@ -17,9 +17,14 @@ document.write (l)
 var s="my.pitman-training.com\\courses\\77629.";
 document.write (s)
 
-//concatenation assgmt
-var o="\"All power belongs to God," + " to Him alone belongs all the Glory," + " and blessed be His name forevermore\", Amen!"
-document.write (o)
+//concatenation string
+var B ="\"All power belongs to God," + " to Him alone belongs all the Glory, Adoration and Praise!" + " and blessed be His name forevermore\", Amen!"
+
+
+//concatenated string chllg
+var v =('This is how we roll!');
+var B = (" \"All power belongs to God," + " to Him alone belongs all the Glory, Adoration and Praise!" + " blessed be His name forevermore\", Amen!");
+document.write (v + B)
 
 //miltiple var
 var teammates = "TOM BEN", Lead ="Munis", GH ="Dovile", Clerk ="Ali", YM ="Victor";
