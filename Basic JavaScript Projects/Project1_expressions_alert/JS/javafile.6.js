@@ -1,3 +1,5 @@
+//javafile.6.js
+
 
 //window Alert
 window.alert("Hello, World2!");
