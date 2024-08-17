@@ -1,3 +1,6 @@
+ //mjs.1.js
+
+
 //document.getElementById
 function myFunction() {
     var sentence = "I am learning about scripting";

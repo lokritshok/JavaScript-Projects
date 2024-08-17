@@ -1,3 +1,6 @@
+//main.js
+
+
 //adding two variables
 var Blue = ("I love Blue colours");
 var Green = (" and can mix it with an array of Olive green!");
