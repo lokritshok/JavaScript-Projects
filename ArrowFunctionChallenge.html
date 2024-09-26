@@ -1,0 +1,22 @@
+<!--ArrowFunctionChallenge.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function Challenge</title>
+</head>
+<body>
+    <h1>JavaScript Functions</h1>
+    <p>This is to show an arrow function with parameters.</p>
+    <p id="home"></p>
+
+    <script>
+        let pet = "";
+        pet = (val) => "These are my favourite pets: "  +  val;
+        document.getElementById("home").innerHTML = pet("Dogs, Cats, and Pigeons");
+    </script>
+    
+</body>
+</html>
