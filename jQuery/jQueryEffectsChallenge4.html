@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQueryEffects Challenge 4 Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+          //Holding off until the document is loaded before running jQuery//
+        $(document).ready(function(){
+             //Selects the HTML button element to click on//
+          $("button").click(function(){
+            $("p").hide("slow", function(){
+              alert("The paragraph is now hidden");
+            });
+          });
+        });
+        </script>
+</head>
+<body>
+
+    <button>Hide</button>
+
+    <p>This is a paragraph with little content.</p>
+    
+</body>
+</html>
