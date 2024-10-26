@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: rgb(87, 11, 145);
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    0%   {top: 0px; background: rgb(0, 132, 255); width: 100px;}
+    100% {top: 200px; background: yellow; width: 300px;}
+  }

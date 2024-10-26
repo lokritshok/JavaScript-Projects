@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stickyMainContent Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="stickyChallenge.css">
+</head>
+<body>
+    <div class="extra">
+        <nav>
+            <ul align="left">
+              <li>
+                <a href="#/contact" class="nav-selections">Contact</a>
+              </li>
+              <li>
+                <a href="#/about" class="nav-selections">About</a>
+              </li>
+              <li>
+                <a href="#/products" class="nav-selections">Books</a>
+              </li>
+              <li>
+                <a href="#" class="nav-selections">Home</a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+    <br />
+    <div id="wrapper">
+
+        <h1>"INGODWETRUST!"</h1>
+    <div id="slideshow">
+    
+    <div>
+     <img src="Img\ARIY0787.JPG" alt="Dad">
+    </div>
+    <div>
+     <img src="Img\NKGB7444.JPG" alt="Mum">
+    </div>
+    <div>
+     <img src="Img\BLBU0062 (2).JPG" alt="son">
+    </div>
+    <div>
+     <img src="Img\AGRZ6357 (2).JPG" alt="son">
+    </div>
+    <div>
+     <img src="Img\IMG_1637.JPG" alt="Daughter">
+    </div>
+    <div>
+     <img src="Img\DCTV2676.JPG" alt="Daughter">
+    </div>
+  </div>
+      </div>
+    </div>
+    <br />
+    <div class="extra">
+        <div id="sticky">
+
+            <button class="open-button" onclick="openForm()">Open Form</button>
+            
+            
+            <div class="form-popup" id="myForm">
+              <form action="/dhurhanghonetwork.com" class="form-container">
+                <h1>Login</h1>
+            
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+        </div>
+        
+    </div>
+    <script src="stickyChallenge.js"></script>
+    
+</body>
+</html>

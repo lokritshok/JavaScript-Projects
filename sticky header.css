@@ -1,0 +1,35 @@
+html,
+body {
+  height: 200%;
+}
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.nav-selections {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font: 16px "lato", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  float: right;
+  margin-left: 5px;
+  transition: 1.5s;
+}
+.nav-selections:hover {
+  transition: 1.5s;
+  color: black;
+}
+ul {
+  background-color: #9ba4e0;
+  overflow: auto;
+}
+li {
+  list-style-type: none;
+}
+li:first-child {
+  margin-right: 35px;
+}
