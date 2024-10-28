@@ -73,7 +73,7 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: blue; /* This ensures all links are blue */
+    color: rgb(171, 21, 68); /* This ensures all links are blue */
     cursor: pointer; /* This ensures all links change the mouse to a pointer when hovered over or clicked */
     text-decoration: underline; /* This ensures all links are underlined */
 }
@@ -197,7 +197,7 @@ footer {
 
 /***** Slideshow Styling *****/
 #Slideshow_Background {
-    background: rgba(255, 255, 255, 0.35); /* This creates a slightly transparent white background that's palced over the video in the background */    
+    background: rgba(122, 62, 62, 0.35); /* This creates a slightly transparent  background that's palced over the video in the background */    
 }
 
 .mySlides{
@@ -206,7 +206,7 @@ footer {
 
 /* Slideshow section / container */
 #Slideshow_Container {
-    width: 39.5vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
+    width: 40vw; /* Relative sizing of the container for the slidewshow set to 39.5% of the viewport width */
     height: auto; /* The height of the container is automatically adjusted based on the content it is displaying */
     padding-top: 4%; /* Adds a small padding to the top of the slideshow container */
     position: relative; /* This sets the container relative to its normal positioning */
@@ -264,7 +264,7 @@ footer {
     font-family: Perpetua, Rockwell Extra Bold;
     letter-spacing: .1vw; /* This gives slight spacing between the letters */
     font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
-    background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
+    background-color: rgba(3, 61, 50, 0.75); /* Gives a slightly transparent black background */
     font-weight: bold;
     border-radius: 0px 0px 7px 7px; /* Gives the text background rounded corners on the bottom left and right corners */
 }
@@ -275,7 +275,7 @@ footer {
     height: 1vw; /* The dots are sized relative to the viewport width */
     width: 1vw;
     margin: .25vw; /* adds additional spacing between the dots */ 
-    background-color: rgb(121, 133, 131); /* Makes the dots white */
+    background-color:  rgb(116, 140, 22); /* Makes the dots white */
     border-radius: 50%; /* Makes the dots circles by rounding each corner */
     display: inline-block; /* Allows the dots to sit next to eachother rather than on a new line */
     transition: background-color 0.6s ease; /* When clicked on the dots transition to a different color when clicked or hovered over (the affect is defined below) */
